@@ -29,13 +29,3 @@ def test_youtube_search(browser, name):
 
 
 
-
-    #assert expected_url == browser.current_url
-    #jobtype_dropdown = Select(browser.find_element(By.NAME, "job_type"))
-    #jobtype_dropdown.select_by_visible_text("Decorating")
-    #browser.find_element(By.NAME, "first_name").send_keys(name)
-    #browser.find_element(By.NAME, "last_name").send_keys(lastname)
-    #browser.find_element(By.NAME, "phone").send_keys("+7-951-289-75-12")
-    #browser.find_element(By.NAME, "email").send_keys("eudvlad@gmail.com")
-    #browser.find_element(By.XPATH, "//input[@value = 'Schedule My consultation']").click()
-    #assert expected_success_url == browser.current_url
